@@ -13,6 +13,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import { fontFamily } from '@mui/system';
 
 const drawerWidth = 240;
 const navItems = ['MYTHICAL DRAGONS', 'LERNAEAN HYDRA', 'ABOUT US'];
@@ -27,7 +28,7 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" sx={{ my: 2, fontFamily: 'Irish grover' }}>
         GREEK MYTHOLOGY
       </Typography>
       <Divider />
@@ -61,13 +62,13 @@ function DrawerAppBar(props) {
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, fontFamily: 'Irish grover' }}
           >
             GREEK MYTHOLOGY
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
+              <Button key={item} sx={{ color: '#fff', fontFamily: 'Irish grover' }}>
                 {item}
               </Button>
             ))}
@@ -128,7 +129,7 @@ function DrawerAppBar(props) {
           dolores sunt inventore perferendis, aut sapiente modi nesciunt.
         </Typography>
       </Box>
-    </Box>
+    </Box >
   );
 }
 
