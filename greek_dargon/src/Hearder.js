@@ -68,8 +68,8 @@ function DrawerAppBar(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff', fontFamily: 'Irish grover' }}>
-                {item}
+              <Button key={item} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
+                <Box sx={{ width: 100, fontSize: '20px' }}>{item}</Box>
               </Button>
             ))}
           </Box>
@@ -93,13 +93,6 @@ function DrawerAppBar(props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box component="main" sx={{ p: 3 }}>
-        <Toolbar />
-        <Typography>
-          <img src='./assets/dargonImg1.png' alt='' width="834px" style={{}}></img>
-        </Typography>
-
-      </Box>
     </Box >
   );
 }
@@ -110,6 +103,8 @@ DrawerAppBar.propTypes = {
    * You won't need it on your project.
    */
   window: PropTypes.func,
+
+
 };
 
 export default DrawerAppBar;
