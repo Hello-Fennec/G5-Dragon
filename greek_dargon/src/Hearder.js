@@ -48,7 +48,7 @@ function DrawerAppBar(props) {
 
   return (
     <Box sx={{ display: 'flex' }}>
-      <AppBar component="nav">
+      <AppBar component="nav" style={{ background: '#1958A7' }}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -86,7 +86,7 @@ function DrawerAppBar(props) {
           }}
           sx={{
             display: { xs: 'block', sm: 'none' }, fontFamily: 'Irish grover',
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '124px' },
 
           }}
         >

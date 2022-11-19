@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .App {
   text-align: center;
 }
@@ -42,4 +38,71 @@
   to {
     transform: rotate(360deg);
   }
+
+
+}
+
+#text1HomePage {
+  /* LERNAEAN HYDRA */
+
+  position: absolute;
+  width: 329px;
+  height: 48px;
+  left: 549px;
+  top: 763px;
+
+  font-family: 'Irish Grover';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+
+
+}
+
+#dragonImg {
+  /* มังกรมืด */
+  position: absolute;
+  width: 1440px;
+  height: 739px;
+  left: 17px;
+  top: 152px;
+}
+
+#buttonStart {
+  /* Rectangle 2 */
+  position: absolute;
+  width: 308px;
+  height: 124px;
+  left: 585px;
+  top: 852px;
+
+  border-radius: 20px;
+
+
+  background: #DF4440;
+  border-radius: 20px;
+}
+
+#buttontextStart {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 26.61%;
+  bottom: 26.61%;
+
+  font-family: 'Irish Grover';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
