@@ -121,13 +121,15 @@
 #stars {
 
   position: absolute;
-  width: 1415px;
+  width: 500%;
   height: 553px;
   top: 133px;
   background-image: url(./assets/stars.png);
   background-size: 1300px;
+  left: -2000px;
   background-repeat: repeat-x
 }
+
 
 #moon {
   position: absolute;
@@ -192,4 +194,10 @@
   height: 331.27px;
   left: -97px;
   top: 488px;
+}
+
+@keyframes stars {
+  100% {
+    transform: translateX(2000px);
+  }
 }
