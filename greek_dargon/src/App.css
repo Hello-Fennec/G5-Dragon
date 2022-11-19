@@ -105,4 +105,93 @@
   color: #FFFFFF;
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#ntSky {
+  position: absolute;
+  width: 1440px;
+  height: 1050px;
+  left: 0px;
+  background-image: url(./assets/night.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#stars {
+
+  position: absolute;
+  width: 1415px;
+  height: 553px;
+  left: 0px;
+  top: 133px;
+  background-image: url(./assets/stars.png);
+
+  background-size: 1300px;
+  background-repeat: repeat-x
+}
+
+#moon {
+  position: absolute;
+  width: 384px;
+  height: 285px;
+  left: 984px;
+  top: 141px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#c1 {
+  position: absolute;
+  width: 1152.7px;
+  height: 576.04px;
+  left: 463px;
+  top: 591px;
+}
+
+#c2 {
+  position: absolute;
+  width: 936.28px;
+  height: 332.94px;
+  left: 591px;
+  top: 673px;
+}
+
+#c3 {
+  position: absolute;
+  width: 821.48px;
+  height: 437.94px;
+  left: 743px;
+  top: 543.96px;
+}
+
+#c4 {
+  position: absolute;
+  width: 443px;
+  height: 344.98px;
+  left: -69px;
+  top: 872px;
+}
+
+#c5 {
+  position: absolute;
+  width: 693px;
+  height: 387.98px;
+  left: -133px;
+  top: 729px;
+}
+
+#c6 {
+  position: absolute;
+  width: 855.27px;
+  height: 471.02px;
+  left: -203px;
+  top: 535px;
+}
+
+#c7 {
+  position: absolute;
+  width: 917.24px;
+  height: 331.27px;
+  left: -97px;
+  top: 488px;
 }

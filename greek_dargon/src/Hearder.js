@@ -28,9 +28,10 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2, fontFamily: 'Irish grover' }}>
+      <Box sx={{ width: 50, fontSize: '20px', my: 2, fontFamily: 'Irish grover' }}> <Typography variant="h6" >
         GREEK MYTHOLOGY
       </Typography>
+      </Box>
       <Divider />
       <List>
         {navItems.map((item) => (
