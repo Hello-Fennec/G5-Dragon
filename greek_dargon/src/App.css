@@ -116,10 +116,12 @@
   background-image: url(./assets/night.png);
   background-size: auto;
   background-repeat: no-repeat;
+  overflow-y: hidden;
+
 }
 
 #stars {
-
+  animation: stars 50s linear infinite;
   position: absolute;
   width: 500%;
   height: 553px;
@@ -128,6 +130,13 @@
   background-size: 1300px;
   left: -2000px;
   background-repeat: repeat-x
+}
+
+#CLay1 {
+  position: absolute;
+  background-image: url(./assets/could/CLay1.png);
+  height: 553px;
+  top: 133px;
 }
 
 
@@ -195,6 +204,28 @@
   left: -97px;
   top: 488px;
 }
+
+
+
+#CLay2 {
+  position: absolute;
+  background-image: url(./assets/could/CLay2.png);
+
+
+}
+
+#CLay3 {
+  position: absolute;
+  background-image: url(./assets/could/CLay3.png);
+}
+
+#CLay4 {
+  position: absolute;
+  background-image: url(./assets/could/CLay4.png);
+
+}
+
+
 
 @keyframes stars {
   100% {
