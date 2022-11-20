@@ -9,7 +9,8 @@ function App() {
   return (
     <div>
       <DrawerAppBar />
-      <Homepage2 />
+      <Homepage />
+
     </div>
   );
 }

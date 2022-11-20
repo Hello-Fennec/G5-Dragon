@@ -3,7 +3,7 @@ import './App.css';
 import dargon from './assets/dargonImg1.png';
 import nt from './assets/night.png'
 import moon from './assets/moon.png'
-import c1 from './assets/could/CLay1.png'
+import could from './assets/could/could.png'
 import c2 from './assets/could/c2.png'
 import c3 from './assets/could/c3.png'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
@@ -11,34 +11,34 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 function Homepage() {
     return (
-        <body>
-            <div >
+        <div >
 
-                <div >
-                    <img id='ntSky' src={nt} alt='ntSky' ></img>
-                    <div id='stars'></div>
+            <Parallax pages={2} style={{ top: '0', left: '0' }}>
+                <ParallaxLayer
+                    offset={0}
+                    speed={2.5}
+                    style={{ justifyContent: 'center', alignItems: 'center' }}>
 
-                    <img id='moon' src={moon} alt='moon' ></img>
+                    <div class='containner'>
+                        <img class='could' src={could} alt='dargon1' ></img>
+                        <div class='stars'></div>
+
+                        <img class='moon' src={moon} alt='moon' ></img>
+                        <img class='dragonImg' src={dargon} alt='dargon1' ></img>
+                        <p class='text1HomePage'>LERNAEAN HYDRA</p>
+
+                        <div class='buttonStart'>
+                            <p class='buttontextStart'>START!</p>
+                        </div>
+                    </div>
 
 
 
-                </div>
-                <img id='dragonImg' src={dargon} alt='dargon1' ></img>
 
+                </ParallaxLayer>
+            </Parallax>
 
-
-                <div id='CLay4'></div>
-                <div id='CLay3'></div>
-                <div id='CLay2'></div>
-                <div id='CLay1'></div>
-                <div  >
-                    <p id='text1HomePage'>LERNAEAN HYDRA</p>
-                </div>
-                <div id='buttonStart'>
-                    <p id='buttontextStart'>START!</p>
-                </div>
-            </div>
-        </body>
+        </div>
     );
 
 
