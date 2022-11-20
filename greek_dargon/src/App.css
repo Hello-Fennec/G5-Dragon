@@ -62,12 +62,13 @@
 
 }
 
+
 #dragonImg {
   /* มังกรมืด */
   position: absolute;
-  width: 1440px;
-  height: 739px;
-  left: 17px;
+  width: 70%;
+
+
   top: 152px;
 }
 
