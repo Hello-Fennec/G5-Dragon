@@ -1,23 +1,21 @@
 import * as React from 'react';
 import './App.css';
 import dargon from './assets/dargonImg1.png';
-import nt from './assets/night.png'
+
 import moon from './assets/moon.png'
 import could from './assets/could/could.png'
-import c2 from './assets/could/c2.png'
-import c3 from './assets/could/c3.png'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import Homepage2 from './HomePage2';
 
 
 function Homepage() {
     return (
         <div >
-
             <Parallax pages={2} style={{ top: '0', left: '0' }}>
                 <ParallaxLayer
                     offset={0}
                     speed={2.5}
-                    style={{ justifyContent: 'center', alignItems: 'center' }}>
+                >
 
                     <div class='containner'>
                         <img class='could' src={could} alt='dargon1' ></img>
@@ -35,6 +33,14 @@ function Homepage() {
 
 
 
+                </ParallaxLayer>
+                <ParallaxLayer offset={1} speed={2} style={{ backgroundColor: '#ff6d6d' }} />
+
+                <ParallaxLayer
+                    offset={1}
+                    speed={0.5}
+                    style={{}}>
+                    <Homepage2 />
                 </ParallaxLayer>
             </Parallax>
 
