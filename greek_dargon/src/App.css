@@ -158,12 +158,6 @@
   background-repeat: repeat-x
 }
 
-.CLay1 {
-  position: absolute;
-  background-image: url(./assets/could/CLay1.png);
-  height: 553px;
-  top: 133px;
-}
 
 
 .moon {
@@ -175,89 +169,6 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-#c1 {
-  position: absolute;
-  width: 1152.7px;
-  height: 576.04px;
-  left: 463px;
-  top: 591px;
-}
-
-#c2 {
-  position: absolute;
-  width: 936.28px;
-  height: 332.94px;
-  left: 591px;
-  top: 673px;
-}
-
-#c3 {
-  position: absolute;
-  width: 821.48px;
-  height: 437.94px;
-  left: 743px;
-  top: 543.96px;
-}
-
-#c4 {
-  position: absolute;
-  width: 443px;
-  height: 344.98px;
-  left: -69px;
-  top: 872px;
-}
-
-#c5 {
-  position: absolute;
-  width: 693px;
-  height: 387.98px;
-  left: -133px;
-  top: 729px;
-}
-
-#c6 {
-  position: absolute;
-  width: 855.27px;
-  height: 471.02px;
-  left: -203px;
-  top: 535px;
-}
-
-#c7 {
-  position: absolute;
-  width: 917.24px;
-  height: 331.27px;
-  left: -97px;
-  top: 488px;
-}
-
-
-
-.CLay1 {
-  position: absolute;
-  width: 700px;
-  height: auto;
-  scale: 500px;
-  left: -69px;
-  top: 772px;
-
-
-
-
-
-
-}
-
-.CLay3 {
-  position: absolute;
-
-}
-
-.CLay4 {
-  position: absolute;
-
-
-}
 
 img.could {
   -webkit-animation: mover 1s infinite alternate;
