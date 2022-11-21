@@ -16,7 +16,7 @@ import Button from '@mui/material/Button';
 import { fontFamily } from '@mui/system';
 
 const drawerWidth = 240;
-const navItems = ['MYTHICAL DRAGONS', 'LERNAEAN HYDRA', 'ABOUT US'];
+const navItems = ['MYTHICAL DRAGONS', ' LERNAEAN HYDRA', 'ABOUT US'];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -28,15 +28,18 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Box sx={{ width: 50, fontSize: '30px', my: 2, fontFamily: 'Irish grover' }}> <Typography variant="h6" >
-        <span className=''>GREEK</span> <br></br> MYTHOLOGY
+      <Box sx={{ width: 50, fontSize: '30px', my: 2 }}> <Typography variant="h6" >
+
+        <p class="font-['Irish_grover'] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] leading-[39px] ">
+          <span class=' '>GREEK</span> <br></br>  <span class=''>MYTHOLOGY</span>
+        </p>
       </Typography>
       </Box>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center', fontFamily: 'Irish grover' }}>
+            <ListItemButton sx={{ textAlign: 'center' }}>
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -63,18 +66,23 @@ function DrawerAppBar(props) {
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, fontSize: '32px', display: { xs: 'none', sm: 'block' }, fontFamily: 'Irish grover', textAlign: 'left' }}
+            sx={{ flexGrow: 1, fontSize: '32px', display: { xs: 'none', sm: 'block' }, textAlign: 'left' }}
             align="left"
           >
 
-            <p class='drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] leading-[39px]'>
+
+
+            <p class="font-['Irish_grover'] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] leading-[39px] ">
               <span class='text-[#FFE62F] '>GREEK</span> <br></br>  <span class='text-[#FF26C2] '>MYTHOLOGY</span>
             </p>
+
+
+
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
-                <Box sx={{ width: 100, fontSize: '25px' }}>{item}</Box>
+                <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}>{item}</Box>
               </Button>
             ))}
           </Box>
@@ -91,7 +99,7 @@ function DrawerAppBar(props) {
           }}
           sx={{
             display: { xs: 'block', sm: 'none' }, fontFamily: 'Irish grover',
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '124px' },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
 
           }}
         >
