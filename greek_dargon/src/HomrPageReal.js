@@ -4,15 +4,12 @@ import './homepage.css';
 import Mor from './MN';
 import Nt from './NT';
 import { Button } from '@mui/material';
-let m = Nt;
+let m = <Nt />;
 
 function HomrPageReal() {
     return (
         <div class='homePage'>
             <Nt />
-
-
-
             <div class='dragonImg'>
                 <p class='text1HomePage'>LERNAEAN HYDRA</p>
             </div>
