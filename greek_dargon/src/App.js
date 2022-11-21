@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <DrawerAppBar />
-      <Homepage />
+      <Homepage2 />
 
     </div>
   );

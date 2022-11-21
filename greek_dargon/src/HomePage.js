@@ -10,20 +10,23 @@ import Homepage2 from './HomePage2';
 
 function Homepage() {
     return (
-        <div class='night'>
-            <div class='sky'>
+        <div class='homePage'>
+
+            <div class='night'>
                 <img class='could' src={could} alt='dargon1' ></img>
                 <div class='stars'></div>
 
                 <img class='moon' src={moon} alt='moon' ></img>
             </div>
+
+
             <div class='dragonImg'>
                 <p class='text1HomePage'>LERNAEAN HYDRA</p>
             </div>
-
             <div class='buttonStart'>
                 <p class='buttontextStart'>START!</p>
             </div>
+
         </div>
     );
 
