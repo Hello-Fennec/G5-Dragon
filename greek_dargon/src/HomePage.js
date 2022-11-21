@@ -13,7 +13,7 @@ function Homepage() {
         <div class='homePage'>
 
             <div class='night'>
-                <img class='could' src={could} alt='dargon1' ></img>
+                <img class='could' src={could}  ></img>
                 <div class='stars'></div>
 
                 <img class='moon' src={moon} alt='moon' ></img>
