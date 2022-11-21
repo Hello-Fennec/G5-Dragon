@@ -2,10 +2,7 @@
 
 .text1HomePage {
     /* LERNAEAN HYDRA */
-
     position: absolute;
-
-
     font-family: 'Irish Grover';
     font-style: normal;
     font-weight: 400;
@@ -58,13 +55,13 @@
     display: flex;
     width: 1440px;
     height: 1105px;
+    background-position: 50% 60%;
     background-image: url(./assets/dargonImg1.png);
     background-size: 1440px;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: flex-end;
 
-    top: 152px;
 }
 
 
@@ -169,7 +166,6 @@ img.could {
 
 html,
 body {
-    margin: 0px;
     max-width: 100%;
     overflow-x: hidden;
 }

@@ -9,8 +9,8 @@ import Hearder2 from './Header2';
 function App() {
   return (
     <div>
-
-      <Homepage2 />
+      <DrawerAppBar />
+      <Homepage />
 
     </div>
   );
