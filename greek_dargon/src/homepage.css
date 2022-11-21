@@ -9,7 +9,6 @@
     margin: 0 auto;
     align-items: flex-end;
     justify-content: center;
-    border: 1px solid red;
 }
 
 .text1HomePage {
@@ -329,6 +328,22 @@ img.fireleft,
 img.fireright {
     -webkit-animation: mover2 2s infinite alternate;
     animation: mover2 2s infinite alternate;
+}
+
+.stone1 {
+    position: absolute;
+    width: 456.09px;
+    height: auto;
+    left: 255.47px;
+    top: 852px;
+}
+
+.stone2 {
+    position: absolute;
+    width: 456.09px;
+    height: auto;
+    left: 420px;
+    top: 915px;
 }
 
 @keyframes stars {

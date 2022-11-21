@@ -5,7 +5,8 @@ import moon from './assets/moon.png'
 import bd from './assets/morning/bird.png'
 import fire from './assets/morning/fireright.png'
 import fire2 from './assets/morning/fireleft.png'
-import stone from './assets/morning/stone.png'
+import stone1 from './assets/morning/stone1.png'
+import stone2 from './assets/morning/stone2.png'
 import sunlight from './assets/morning/sunlight.png'
 import morning from './assets/morning/morning.png'
 
@@ -20,6 +21,9 @@ function Homepage2() {
                 <img class='bird' src={bd} alt='bird' ></img>
                 <img class='fireright' src={fire} alt='fireright' ></img>
                 <img class='fireleft' src={fire2} alt='fireright' ></img>
+
+                <img class='stone1' src={stone1} alt='stone1' ></img>
+                <img class='stone2' src={stone2} alt='stone2' ></img>
             </div>
 
 
@@ -29,12 +33,6 @@ function Homepage2() {
             <div class='buttonStart'>
                 <p class='buttontextStart'>START!</p>
             </div>
-
-
-
-
-
-
         </div>
     );
 

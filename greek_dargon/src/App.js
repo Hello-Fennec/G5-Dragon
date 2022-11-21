@@ -3,14 +3,17 @@ import './App.css';
 import DrawerAppBar from './Header';
 import Homepage from './HomePage';
 import Homepage2 from './HomePage2';
-import Hearder2 from './Header2';
+import MN from './MN';
+import NT from './NT';
+import HomrPageReal from './HomrPageReal';
+
 
 
 function App() {
   return (
     <div>
       <DrawerAppBar />
-      <Homepage2 />
+      <HomrPageReal />
 
     </div>
   );
