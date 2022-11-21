@@ -3,25 +3,33 @@ import './App.css';
 import dargon from './assets/dargonImg1.png';
 import moon from './assets/moon.png'
 import could from './assets/could/could.png'
+import fire from './assets/morning/fireright.png'
+import stone from './assets/morning/stone.png'
+import sunlight from './assets/morning/sunlight.png'
+import morning from './assets/morning/morning.png'
 
+
+import './homepage.css';
 
 function Homepage2() {
     return (
+
         <div>
-            <div class='containner'>
-                <img class='could' src={could} alt='dargon1' ></img>
-                <div class='stars'></div>
+            <div class='morning'>  </div>
 
-                <img class='moon' src={moon} alt='moon' ></img>
-                <img class='dragonImg' src={dargon} alt='dargon1' ></img>
+            <img class='sunlight' src={sunlight}></img>
+            <img class='fireright' src={fire}></img>
+            <img class='fireleft' src={fire}></img>
+            <div class='dragonImg'>
                 <p class='text1HomePage'>LERNAEAN HYDRA</p>
-
-                <div class='buttonStart'>
-                    <p class='buttontextStart'>START!</p>
-                </div>
             </div>
+            <img class='stone' src={stone}></img>
 
-        </div >
+
+
+
+
+        </div>
     );
 
 
