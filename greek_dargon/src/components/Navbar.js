@@ -15,7 +15,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 const drawerWidth = 240;
-const navItems = ['MYTHICAL DRAGONS', 'LERNAEAN HYDRA', 'ABOUT US'];
+const navItems = ['MYTHICAL \nDRAGONS', 'LERNAEAN HYDRA', 'ABOUT US'];
 
 function DrawerAppBar(props) {
   const { window } = props;
