@@ -314,8 +314,8 @@ img.bird {
 
 img.could,
 img.bird {
-    -webkit-animation: mover 2s infinite alternate;
-    animation: mover 2s infinite alternate;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
 }
 
 img.fireleft,
@@ -358,7 +358,7 @@ img.fireright {
     }
 
     100% {
-        transform: translateY(-10px);
+        transform: translateY(-20px);
     }
 }
 
@@ -368,7 +368,7 @@ img.fireright {
     }
 
     100% {
-        transform: translateY(-10px);
+        transform: translateY(-20px);
     }
 }
 
