@@ -6,14 +6,15 @@ import Homepage2 from './HomePage2';
 import MN from './MN';
 import NT from './NT';
 import HomrPageReal from './HomrPageReal';
+import Mee from './Mee';
 
 
 
 function App() {
   return (
     <div>
-      <DrawerAppBar />
-      <HomrPageReal />
+      < Mee />
+
 
     </div>
   );
