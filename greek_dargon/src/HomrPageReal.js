@@ -9,7 +9,7 @@ let m = <Nt />;
 function HomrPageReal() {
     return (
         <div class='homePage'>
-            <Nt />
+            <Mor />
             <div class='dragonImg'>
                 <p class='text1HomePage'>LERNAEAN HYDRA</p>
             </div>
