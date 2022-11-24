@@ -23,9 +23,9 @@ function Homepage() {
             <div class='dragonImg'>
                 <p class='text1HomePage'>LERNAEAN HYDRA</p>
             </div>
-            <div class='buttonStart'>
+            {/* <div class='buttonStart'>
                 <p class='buttontextStart'>START!</p>
-            </div>
+            </div> */}
 
         </div>
     );

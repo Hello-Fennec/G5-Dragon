@@ -72,9 +72,9 @@ function DrawerAppBar(props) {
 
 
 
-            <button> <p class="font-['Irish_grover'] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] leading-[39px] ">
+            <Button> <p class="font-['Irish_grover'] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] leading-[39px] ">
               <span class='text-[#FFE62F] '>GREEK</span> <br></br>  <span class='text-[#FF26C2] '>MYTHOLOGY</span>
-            </p></button>
+            </p></Button>
 
 
 
