@@ -5,7 +5,6 @@
     display: flex;
     max-width: 1440px;
     height: 1024px;
-    flex-direction: inherit;
     text-align: center;
     margin: 0 auto;
     align-items: flex-end;
@@ -35,7 +34,7 @@
     display: flex;
     max-width: 1440px;
     height: 1024px;
-    background-image: url(./assets/night.png);
+    background-image: url(./assets/nightv2.png);
     text-align: center;
     margin: 0 auto;
     align-items: flex-end;
@@ -73,13 +72,13 @@
 
 .buttonStart {
     /* Rectangle 2 */
+    position: absolute;
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: center;
     width: 308px;
     height: 124px;
-    margin-bottom: 40px;
+    bottom: 50px;
 
 
     border-radius: 20px;
@@ -108,7 +107,7 @@
     width: 1440px;
     height: 1050px;
     left: 0px;
-    background-image: url(./assets/night.png);
+    background-image: url(./assets/nightv2.png);
     background-size: auto;
     background-repeat: no-repeat;
     overflow-y: hidden;
@@ -206,7 +205,8 @@ nav {
     text-decoration: none;
 }
 
-li {
+/* edited */
+.li-header {
     /* MYTHICAL DRAGONS */
 
     position: relative;
@@ -217,6 +217,9 @@ li {
 
 
 }
+
+/* edited */
+
 
 li a {
 
@@ -315,8 +318,8 @@ img.bird {
 
 img.could,
 img.bird {
-    -webkit-animation: mover 2s infinite alternate;
-    animation: mover 2s infinite alternate;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
 }
 
 img.fireleft,
@@ -359,7 +362,7 @@ img.fireright {
     }
 
     100% {
-        transform: translateY(-10px);
+        transform: translateY(-20px);
     }
 }
 
@@ -369,7 +372,7 @@ img.fireright {
     }
 
     100% {
-        transform: translateY(-10px);
+        transform: translateY(-20px);
     }
 }
 

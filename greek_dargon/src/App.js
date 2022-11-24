@@ -15,7 +15,8 @@ function App() {
   return (
     <div>
 
-      <Mee />
+      <DrawerAppBar />
+      < HomrPageReal />
 
     </div>
   );

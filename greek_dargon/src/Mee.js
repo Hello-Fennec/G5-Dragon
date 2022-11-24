@@ -1,5 +1,4 @@
 import * as React from 'react';
-import './mme.css';
 import dragon from './image/dragon.gif'
 import dragon2 from './image/dragon1.gif'
 import cloud from './image/cloud.png'
