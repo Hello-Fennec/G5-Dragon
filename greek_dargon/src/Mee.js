@@ -1,94 +1,77 @@
 import * as React from 'react';
 import './App.css';
+import dragon from './image/dragon.gif'
+import dragon2 from './image/dragon1.gif'
+import cloud from './image/cloud.png'
+
 
 function Mee() {
   return (
-    <div>
-      
-      <nav>
-        <ul class="main">
-            <div class="logo">
-                <a href="">GREEK </a>
-
+    <div className="page">
+        <nav>
+          <ul className="main">
+            <div className="logo">
+              <a href>GREEK </a>
             </div>
-            <div class="logo2">
-                <a href="">MYTHOLOGY</a>
+            <div className="logo2">
+              <a href>MYTHOLOGY</a>
             </div>
-
-            <li><a href="/index.html">MYTHICAL<br></br>DRAGONS</a></li>
-            <li><a href="/aboutme.html">LERNAEAN <br></br>HYDRA</a></li>
-            <li><a href="/diary.html">ABOUT<br></br>US</a></li>
-
-        </ul>
-    </nav>
-
-    <div class="card" style="width:50%;">
-        <a href="https://www.instagram.com/akkarawit_title/" target="_blank">
-            <div class="box1">
-                <h2>TITLE</h2>
+            <li><a href="/index.html">MYTHICAL<br /> DRAGONS</a></li>
+            <li><a href="/aboutme.html">LERNAEAN <br />HYDRA</a></li>
+            <li><a href="/diary.html">ABOUT<br />US</a></li>
+          </ul>
+        </nav>
+        <div className="card" style={{width: '50%'}}>
+          <a href="https://www.instagram.com/akkarawit_title/" target="_blank">
+            <div className="box1">
+              <h2>TITLE</h2>
             </div>
-        </a>
-
-        <a href="https://www.instagram.com/botusvyvie/" target="_blank">
-            <div class="box2">
-                <h2>BOTUS</h2>
+          </a>
+          <a href="https://www.instagram.com/botusvyvie/" target="_blank">
+            <div className="box2">
+              <h2>BOTUS</h2>
             </div>
-        </a>
-
-        <a href="https://www.instagram.com/peacebluegirl/" target="_blank">
-            <div class="box3">
-                <h2>PEACE</h2>
+          </a>
+          <a href="https://www.instagram.com/peacebluegirl/" target="_blank">
+            <div className="box3">
+              <h2>PEACE</h2>
             </div>
-        </a>
-
-        <a href="https://www.instagram.com/kayjirat_s/" target="_blank">
-            <div class="box4">
-                <h2>KAY</h2>
+          </a>
+          <a href="https://www.instagram.com/kayjirat_s/" target="_blank">
+            <div className="box4">
+              <h2>KAY</h2>
             </div>
-        </a>
-
-        <a href="https://www.instagram.com/fluke.wm47/" target="_blank">
-            <div class="box5">
-                <h2>FLUKE</h2>
+          </a>
+          <a href="https://www.instagram.com/fluke.wm47/" target="_blank">
+            <div className="box5">
+              <h2>FLUKE</h2>
             </div>
-        </a>
-
-        <a href="https://www.instagram.com/nalinee.mm/" target="_blank">
-            <div class="box6">
-                <h2>MEMEE</h2>
+          </a>
+          <a href="https://www.instagram.com/nalinee.mm/" target="_blank">
+            <div className="box6">
+              <h2>MEMEE</h2>
             </div>
-        </a>
+          </a>
+        </div>
+        <div className="INFRASTRUCTURE">INFRASTRUCTURE</div>
+        <div className="WEBDESIGN">WEB DESIGN</div>
+        <div className="FRONT-END">FRONT-END</div>
 
-
-    </div>
-
-    <div class="INFRASTRUCTURE">INFRASTRUCTURE</div>
-
-    <div class="WEBDESIGN">WEB DESIGN</div>
-
-    <div class="FRONT-END">FRONT-END</div>
-
-
-    <div class="background-wrap">
-        <div class="x1">
-            <div class="cloud"><img src="./image/cloud.png"> width="3990" height="2878"</img></div>
+        <div className="background-wrap">
+          <div className="x1">
+            <div className="cloud"> <img src={cloud} width="3990" height="2878"/></div>
+          </div>
         </div>
 
-    </div>
-
-    <div class="dragon">
-
-        <div class="dragon1">
-            <img src='./image/IMG_9827 - Copy.GIF'></img>
+        <div className="dragon">
+          <div className="dragon1">
+            <img src={dragon} />
+          </div>
+          <div className="dragon2">
+            <img src={dragon2} />
+          </div>
         </div>
-
-        <div class="dragon2">
-            <img src='./IMG_9915.gif'></img>
-        </div>
-
-    </div>
-
-    </div>
+      </div>
   );
 
 }
