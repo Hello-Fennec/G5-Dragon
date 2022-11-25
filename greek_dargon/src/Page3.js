@@ -1,6 +1,5 @@
 import './Page3.css'
 import './Page2Swipe'
-import './DrawerAppBar'
 import * as React from 'react';
 import './App.css';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -23,14 +22,14 @@ import stone from './image2/stone.png';
 import wave from './image2/wave.png';
 import wave1 from './image2/wave1.png';
 import white from './image2/white.png';
-
-import DrawerAppBar from './DrawerAppBar';
+import {Outlet,Link} from "react-router-dom"
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import DrawerAppBar from './Header';
 
 function Page3() {
     return(
@@ -179,6 +178,7 @@ function Page3() {
             </span></SwiperSlide>
             <SwiperSlide><span>
             <img className="Rectangle10" src={Rectangle10} alt="Rectangle10"/>
+
             </span></SwiperSlide>
 
 
@@ -198,7 +198,7 @@ function Page3() {
         </div>
 
             <div className="ABOUTUS">
-                <p>ABOUT US </p>
+            <Link  to={`page4`}><p>ABOUT US </p></Link>
             </div>
         </div>
 </div>

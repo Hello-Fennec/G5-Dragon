@@ -11,6 +11,7 @@ import stone2 from './assets/morning/stone2.png'
 import sunlight from './assets/morning/sunlight.png'
 import morning from './assets/morning/morning.png'
 import { Button } from "@mui/material";
+import {Outlet,Link} from "react-router-dom"
 
 import './homepage.css';
 
@@ -33,9 +34,9 @@ function morningD() {
             </div>
             {/*  edited  */}
             <div class="buttonStart">
-                <Button>
+            <Link to={`page2`}><Button>
                     <p class="buttontextStart">START!</p>
-                </Button>
+                </Button></Link>
             </div>
             {/*  edited  */}
         </div>

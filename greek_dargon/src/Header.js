@@ -10,7 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import {Outlet,Link} from "react-router-dom"
+import { Outlet, Link } from "react-router-dom"
 
 import "./App.css";
 import "./navbar.css";
@@ -72,9 +72,9 @@ function DrawerAppBar(props) {
 
         {/* btn1  */}
 
-        <Link to={`page1`}> <Button key={navItems[0]} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
-          <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}>{navItems[0]}</Box>
-        </Button></Link>
+        <Button key={navItems[0]} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
+          <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}> <Link to={`page1`}>{navItems[0]}</Link></Box>
+        </Button>
 
         {/* btn2 */}
 
@@ -135,7 +135,7 @@ function DrawerAppBar(props) {
 
 
             <button> <p class="font-['Irish_grover'] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] leading-[39px] ">
-              <span class='text-[#FFE62F] '>GREEK</span> <br></br>  <span class='text-[#FF26C2] '>MYTHOLOGY</span>
+              <Link to={`homepage`}><span class='text-[#FFE62F] '>GREEK</span> <br></br>  <span class='text-[#FF26C2] '>MYTHOLOGY</span></Link>
             </p></button>
 
 
@@ -153,7 +153,7 @@ function DrawerAppBar(props) {
             {/* btn1  */}
 
             <Button key={navItems[0]} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
-              <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}>{navItems[0]}</Box>
+              <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}><Link to={'page2'}>{navItems[0]}</Link></Box>
             </Button>
 
             {/* btn2 */}
@@ -163,7 +163,7 @@ function DrawerAppBar(props) {
                 <Box sx={{ display: 'flex', flexDirection: 'row' }}> <Box>{navItems[1]} </Box> <Box sx={{ marginLeft: '65px', marginTop: '50px', position: 'absolute' }}>{dropDownIcon}</Box>  </Box>
                 {/* DropDown Intem */}
                 {open ? (
-                  <ul className="menu li-menu">
+                  <Link to={`page3`}><ul className="menu li-menu">
                     <li className="menu-item li-menu">
                       <button>ลักษณะและอิทธิฤทธิ์
                         ของไอดรา</button>
@@ -178,7 +178,7 @@ function DrawerAppBar(props) {
                     <li className="menu-item li-menu">
                       <button>ART GALLERY</button>
                     </li>
-                  </ul>
+                  </ul></Link>
                 ) : null}
               </Box>
             </Button>
@@ -186,7 +186,7 @@ function DrawerAppBar(props) {
             {/* btn3 */}
 
             <Button key={navItems[2]} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
-              <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}>{navItems[2]}</Box>
+              <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}><Link relative="path" to={`page4`}>{navItems[2]}</Link></Box>
             </Button>
 
             {/*  edited  */}
@@ -210,9 +210,12 @@ function DrawerAppBar(props) {
         >
           {drawer}
         </Drawer>
+        
       </Box>
-      <Outlet/>
+         
+
     </Box >
+    
   );
 }
 

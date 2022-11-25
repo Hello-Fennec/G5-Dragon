@@ -1,5 +1,4 @@
 import './Page2.css'
-import './DrawerAppBar'
 import './Page2Swipe'
 import * as React from 'react';
 import './App.css';
@@ -15,18 +14,21 @@ import blinkใส from './p2/blinkใส.png';
 import blinkทึบ3 from './p2/blinkทึบ3.png';
 import cloudtop from './p2/cloudtop.png';
 import ปราสาท from './p2/ปราสาท.png';
-import DrawerAppBar from './DrawerAppBar';
 import Page2Swipe from './Page2Swipe';
 import { Button } from '@mui/material';
+import DrawerAppBar from './Header';
+import {Outlet,Link} from "react-router-dom"
 
 function Page2() {
     return (
         <div className="Page2">
-            <Button id='buttonHydra'>
-                <a href="http://www.stackoverflow.com/"> {/*รอเชื่อมหน้า3*/}
+             <Link to={`page3`}><Button id='buttonHydra'>
+            <div className="gifdragon">
+                <img className="gifdragon" src={gifdragon} alt="gifdragon" />
+            </div>
+        
                     <p id='buttontextHydra'>CLICK HERE<br />TO READ<br />ABOUT HYDRA<br /></p>
-                </a>
-            </Button>
+                     </Button></Link>
             <Page2Swipe />
             <div> <DrawerAppBar/> </div>
             <div className = "background" ><div class='bgg2'></div>
@@ -36,13 +38,12 @@ function Page2() {
             <div className="มังกร">
                 <img className="มังกร" src={มังกร} alt="มังกร" />
 </div>
-            <div className="gifdragon">
-                <img className="gifdragon" src={gifdragon} alt="gifdragon" />
-            </div>
+            
             
             
             
             </div>
+            <Outlet/>
         </div>
     );
 }

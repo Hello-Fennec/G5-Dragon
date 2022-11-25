@@ -4,6 +4,7 @@ import dragon from './image/dragon.gif'
 import dragon2 from './image/dragon1.gif'
 import cloud from './image/cloud.png'
 import DrawerAppBar from './Header';
+import {Outlet,Link} from "react-router-dom"
 
 
 function Page4() {

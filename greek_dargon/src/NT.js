@@ -6,6 +6,7 @@ import './homepage.css';
 import moon from './assets/moon.png'
 import could from './assets/could/could.png'
 import { Button } from "@mui/material";
+import {Outlet,Link} from "react-router-dom"
 
 
 function NT() {
@@ -20,9 +21,9 @@ function NT() {
             </div>
             {/*  edited  */}
             <div class="buttonStart">
-                <Button>
+            <Link to={`page2`}><Button>
                     <p class="buttontextStart">START!</p>
-                </Button>
+                </Button></Link>
             </div>
             {/*  edited  */}
         </div>
