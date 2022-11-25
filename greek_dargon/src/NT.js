@@ -5,7 +5,6 @@ import dargon from './assets/dargonImg1.png';
 import './homepage.css';
 import moon from './assets/moon.png'
 import could from './assets/could/could.png'
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { Button } from "@mui/material";
 
 
