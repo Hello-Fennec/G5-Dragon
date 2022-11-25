@@ -148,7 +148,7 @@ function Page3() {
         </div>
 
         <div>
-            <div className="wave"> 
+            <div class="wave"> 
                 <img className="wave" src={wave} alt="wave"/>
             </div>
 
@@ -176,12 +176,6 @@ function Page3() {
            <SwiperSlide><span>
             <img className="Rectangle10" src={Rectangle10} alt="Rectangle10"/>
             </span></SwiperSlide>
-            <SwiperSlide><span>
-            <img className="Rectangle10" src={Rectangle10} alt="Rectangle10"/>
-
-            </span></SwiperSlide>
-
-
             <SwiperSlide><span >
             <img className="Rectangle11" src={Rectangle11} alt="Rectangle11"/>
             </span></SwiperSlide>
