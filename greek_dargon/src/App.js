@@ -10,8 +10,8 @@ function App() {
     <div>
       {/* <DrawerAppBar /> */}
       {/* <Homepage /> */}
-      {/* <Page2/>  */}
-      <Page3/>
+      <Page2/> 
+      {/* <Page3/> */}
     </div>
   );
 }

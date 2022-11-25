@@ -35,8 +35,10 @@ function Page3() {
             <p>ลักษณะและอิทธิฤทธิ์ของไฮดรา</p>
         </div>
 
-        <div className="bookright" data-aos="fade-left">
+        <div className="bookright">
+            <div data-aos="fade-left">
             <img className="bookright" src={bookright} alt="bookright"/>
+            </div>
         </div>
 
         <div className="dragon1">
