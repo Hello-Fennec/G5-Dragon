@@ -13,13 +13,12 @@ import Page3 from './Page3';
 
 
 
+import DrawerAppBar from './Header';
+import Mee from './Mee';
 
 function App() {
   return (
     <div>
-
-      <DrawerAppBar/>
-      <Page3/>
 
     </div>
   );
