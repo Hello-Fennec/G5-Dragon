@@ -2,18 +2,18 @@
 .Swipe{
   width: 45%;
   position: absolute;
-  width: 590px;
-  height: 384px;
-  right: 20px;
-  top: 325px;
+  width: 50%;
+  height: 10%;
+  right: 2%;
+  top: 45%;
 
   font-family: 'Irish Grover';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.5vw;
   line-height: 24px;
   text-align: center;
-  padding: 10px;
+  padding: 1%;
 
   color: #000000;
 }

@@ -1,5 +1,5 @@
 import './Page2.css'
-import './Page2Nav'
+// import './Page2Nav'
 import './Page2Swipe'
 import * as React from 'react';
 import './App.css';
@@ -15,13 +15,13 @@ import blinkใส from './p2/blinkใส.png';
 import blinkทึบ3 from './p2/blinkทึบ3.png';
 import cloudtop from './p2/cloudtop.png';
 import ปราสาท from './p2/ปราสาท.png';
-import Page2Nav from './Page2Nav';
+// import Page2Nav from './Page2Nav';
 import Page2Swipe from './Page2Swipe';
 
 function Page2() {
     return (
         <div className="Page2">
-            <div> <Page2Nav/> </div>
+            {/* <div> <Page2Nav/> </div>  รอใส่navbarด้วย */}
             <div className = "background" > </div>
             <div className="topic">
                 <h1>MYTHICAL DRAGONS</h1>
