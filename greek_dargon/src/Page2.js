@@ -15,13 +15,13 @@ import blinkใส from './p2/blinkใส.png';
 import blinkทึบ3 from './p2/blinkทึบ3.png';
 import cloudtop from './p2/cloudtop.png';
 import ปราสาท from './p2/ปราสาท.png';
-// import Page2Nav from './Page2Nav';
+import Page2Nav from './Page2Nav';
 import Page2Swipe from './Page2Swipe';
 
 function Page2() {
     return (
         <div className="Page2">
-            {/* <div> <Page2Nav/> </div>  รอใส่navbarด้วย */}
+            <div> <Page2Nav/> </div>
             <div className = "background" > </div>
             <div className="topic">
                 <h1>MYTHICAL DRAGONS</h1>
@@ -48,8 +48,8 @@ function Page2() {
                 <img className="cloud" src={cloud} alt="cloud" />
             </div>
             <div id='buttonHydra'>
-                <a href ="http://www.stackoverflow.com/"> {/*รอเชื่อมหน้า3*/}
-                    <button id='buttontextHydra'>CLICK HERE<br/>TO READ<br/>ABOUT HYDRA<br/></button>
+                <a href="http://www.stackoverflow.com/"> {/*รอเชื่อมหน้า3*/}
+                    <button id='buttontextHydra'>CLICK HERE<br />TO READ<br />ABOUT HYDRA<br /></button>
                 </a>
             </div>
             <div className="gifdragon">
@@ -67,9 +67,9 @@ function Page2() {
             <div className="blinkทึบ3">
                 <img className="blinkทึบ3" src={blinkทึบ3} alt="blinkทึบ3" />
             </div>
-            <Page2Swipe/>
-            
+            <Page2Swipe />
+
         </div>
-        );
+    );
 }
 export default Page2;
