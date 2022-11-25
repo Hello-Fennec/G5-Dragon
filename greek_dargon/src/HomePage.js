@@ -1,32 +1,23 @@
 import * as React from 'react';
 import './App.css';
 import dargon from './assets/dargonImg1.png';
-import './homepage.css';
-import moon from './assets/moon.png'
-import could from './assets/could/could.png'
-import Homepage2 from './HomePage2';
+import { Button } from '@mui/material';
 
 
 function Homepage() {
     return (
-        <div class='homePage'>
-
-            <div class='night'>
-                <img class='could' src={could}  ></img>
-                <div class='stars'></div>
-
-                <img class='moon' src={moon} alt='moon' ></img>
+        <div className='' >
+            <div >
+                <img id='dragonImg' src={dargon} alt='dargon1' ></img>
+                <Button href="#text-buttons">Link</Button>
+                <div  >
+                    <p id='text1HomePage'>LERNAEAN HYDRA</p>
+                </div>
+                <div id='buttonStart'>
+                    <p id='buttontextStart'>START!</p>
+                </div>
             </div>
-
-
-            <div class='dragonImg'>
-                <p class='text1HomePage'>LERNAEAN HYDRA</p>
-            </div>
-            {/* <div class='buttonStart'>
-                <p class='buttontextStart'>START!</p>
-            </div> */}
-
-        </div>
+        </div >
     );
 
 
