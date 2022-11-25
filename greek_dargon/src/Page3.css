@@ -253,6 +253,69 @@
     width:70.7%;
     height:71.7%;
 }
+.framegallery{
+    position: absolute;
+    left: 0%;
+    top: 450%;
+    width: 100%;
+    height: 150%;
+    background:  #F0F6FF;
+    z-index: -1;
+}
+.GALLERY{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    left: 20%;
+    top: 500%;
+
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 58px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #DF4440;
+}
+.Swipe3{
+    position: absolute;
+    width: 45%;
+    height: 30%;
+    left: 28%;
+    top: 510%;
+  
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 24px;
+    text-align: center;
+    padding: 1%;
+  
+    color: #000000;
+  }
+
+.ABOUTUS{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 42%;
+    top: 588%;
+
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 58px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #DF4440;
+}
 
 .animated{
     width: 400px;

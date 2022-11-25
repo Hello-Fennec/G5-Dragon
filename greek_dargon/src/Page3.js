@@ -1,7 +1,10 @@
 import './Page3.css'
 import './Page2Swipe'
+import './DrawerAppBar'
 import * as React from 'react';
 import './App.css';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import bg from './image2/bg.png';
 import bookleft from './image2/bookleft.png';
 import bookright from './image2/bookright.png';
@@ -20,9 +23,7 @@ import stone from './image2/stone.png';
 import wave from './image2/wave.png';
 import wave1 from './image2/wave1.png';
 import white from './image2/white.png';
-import './DrawerAppBar'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+
 import DrawerAppBar from './DrawerAppBar';
 
 // Import Swiper styles
@@ -35,41 +36,7 @@ function Page3() {
     return(
     <div className="Page3">
         <div> <DrawerAppBar/> </div>
-<div className="framegallery"></div>
-<div className="Swipe3">
-            <Swiper
-            // install Swiper modules
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={20}
-            slidesPerView={1}
-            navigation
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
-        >
-            <SwiperSlide ><span>
-            <img className="Rectangle10" src={Rectangle10} alt="Rectangle10"/>
-            </span></SwiperSlide>
 
-            <SwiperSlide><span>
-            <img className="Rectangle11" src={Rectangle11} alt="Rectangle11"/>
-            </span></SwiperSlide>
-
-            <SwiperSlide><span>
-            <img className="Rectangle12" src={Rectangle12} alt="Rectangle12"/>
-            </span></SwiperSlide>
-
-            <SwiperSlide><span>
-            <img className="Rectangle13" src={Rectangle13} alt="Rectangle13"/>
-            </span></SwiperSlide>
-            ...
-        </Swiper>
-        </div>
-
-			<div className="ABOUTUS">
-                <p>ABOUT US >> </p>
-            </div>
         <div class="bg">
             <img className="bg" src={bg} alt="bg"/>
         </div>
@@ -191,14 +158,47 @@ function Page3() {
             </div>
             {/* <!-- ทำให้น้ำขยับได้ --> */}
 
+            <div className="framegallery"></div>
             <div className="GALLERY">
                 <p>GALLERY OF LERNAEAN HYDRA</p>
             </div>
-            {/* <!-- รูปเลื่อนได้5รูป รูปregtangle1-5 --> */}
+            <div className="Swipe3">
+            <Swiper 
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={7}
+            slidesPerView={2}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log('slide change')}
+        >
+           <SwiperSlide><span>
+            <img className="Rectangle10" src={Rectangle10} alt="Rectangle10"/>
+            </span></SwiperSlide>
+            <SwiperSlide><span>
+            <img className="Rectangle10" src={Rectangle10} alt="Rectangle10"/>
+            </span></SwiperSlide>
+
+
+            <SwiperSlide><span >
+            <img className="Rectangle11" src={Rectangle11} alt="Rectangle11"/>
+            </span></SwiperSlide>
+
+            <SwiperSlide><span>
+            <img className="Rectangle12" src={Rectangle12} alt="Rectangle12"/>
+            </span></SwiperSlide>
+
+            <SwiperSlide><span>
+            <img className="Rectangle13" src={Rectangle13} alt="Rectangle13"/>
+            </span></SwiperSlide>
+            ...
+        </Swiper>
+        </div>
 
             <div className="ABOUTUS">
                 <p>ABOUT US </p>
-                {/* <!-- เชื่อมปุ่มไปหน้า4 --> */}
             </div>
         </div>
 </div>
