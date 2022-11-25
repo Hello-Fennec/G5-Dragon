@@ -10,6 +10,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import {Outlet,Link} from "react-router-dom"
+
 import "./App.css";
 import "./navbar.css";
 
@@ -70,9 +72,9 @@ function DrawerAppBar(props) {
 
         {/* btn1  */}
 
-        <Button key={navItems[0]} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
+        <Link to={`page1`}> <Button key={navItems[0]} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
           <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}>{navItems[0]}</Box>
-        </Button>
+        </Button></Link>
 
         {/* btn2 */}
 
@@ -209,6 +211,7 @@ function DrawerAppBar(props) {
           {drawer}
         </Drawer>
       </Box>
+      <Outlet/>
     </Box >
   );
 }

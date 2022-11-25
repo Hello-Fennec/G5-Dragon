@@ -3,12 +3,13 @@ import './App.css';
 import dragon from './image/dragon.gif'
 import dragon2 from './image/dragon1.gif'
 import cloud from './image/cloud.png'
+import DrawerAppBar from './Header';
 
 
-function Mee() {
+function Page4() {
   return (
     <div className="page">
-        
+        <DrawerAppBar/>
         <div className="card" style={{width: '50%'}}>
           <a href="https://www.instagram.com/akkarawit_title/" target="_blank">
             <div className="box1">
@@ -65,4 +66,4 @@ function Mee() {
   );
 
 }
-export default Mee;
+export default Page4;

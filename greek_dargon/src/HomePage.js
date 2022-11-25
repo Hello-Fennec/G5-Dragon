@@ -4,6 +4,7 @@ import "./homepage.css";
 import Mor from "./MN";
 import Nt from "./NT";
 import { Button } from "@mui/material";
+import DrawerAppBar from "./Header";
 
 
 
@@ -22,6 +23,7 @@ function HomrPageReal() {
 
   return (
     <div>
+      <DrawerAppBar/>
       {toggle && <Nt />}
       {!toggle && <Mor />}
 
