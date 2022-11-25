@@ -17,58 +17,32 @@ import cloudtop from './p2/cloudtop.png';
 import ปราสาท from './p2/ปราสาท.png';
 import DrawerAppBar from './DrawerAppBar';
 import Page2Swipe from './Page2Swipe';
+import { Button } from '@mui/material';
 
 function Page2() {
     return (
         <div className="Page2">
+            <Button id='buttonHydra'>
+                <a href="http://www.stackoverflow.com/"> {/*รอเชื่อมหน้า3*/}
+                    <p id='buttontextHydra'>CLICK HERE<br />TO READ<br />ABOUT HYDRA<br /></p>
+                </a>
+            </Button>
+            <Page2Swipe />
             <div> <DrawerAppBar/> </div>
-            <div className = "background" > </div>
+            <div className = "background" ><div class='bgg2'></div>
             <div className="topic">
                 <h1>MYTHICAL DRAGONS</h1>
             </div>
-            <div className="เงาม่วง">
-                <img className="เงาม่วง" src={เงาม่วง} alt="เงาม่วง" />
-            </div>
-            <div className="cloudtop">
-                <img className="cloudtop" src={cloudtop} alt="cloudtop" />
-            </div>
-            <div className="ขาวกลม">
-                <img className="ขาวกลม" src={ขาวกลม} alt="ขาวกลม" />
-            </div>
-            <div className="สายรุ้ง">
-                <img className="สายรุ้ง" src={สายรุ้ง} alt="สายรุ้ง" />
-            </div>
-            <div className="ปราสาท">
-                <img className="ปราสาท" src={ปราสาท} alt="ปราสาท" />
-            </div>
             <div className="มังกร">
                 <img className="มังกร" src={มังกร} alt="มังกร" />
-            </div>
-            <div className="cloud">
-                <img className="cloud" src={cloud} alt="cloud" />
-            </div>
-            <div id='buttonHydra'>
-                <a href="http://www.stackoverflow.com/"> {/*รอเชื่อมหน้า3*/}
-                    <button id='buttontextHydra'>CLICK HERE<br />TO READ<br />ABOUT HYDRA<br /></button>
-                </a>
-            </div>
+</div>
             <div className="gifdragon">
                 <img className="gifdragon" src={gifdragon} alt="gifdragon" />
             </div>
-            <div className="blinkทึบ1">
-                <img className="blinkทึบ1" src={blinkทึบ1} alt="blinkทึบ1" />
+            
+            
+            
             </div>
-            <div className="blinkทึบ2">
-                <img className="blinkทึบ2" src={blinkทึบ2} alt="blinkทึบ2" />
-            </div>
-            <div className="blinkใส">
-                <img className="blinkใส" src={blinkใส} alt="blinkใส" />
-            </div>
-            <div className="blinkทึบ3">
-                <img className="blinkทึบ3" src={blinkทึบ3} alt="blinkทึบ3" />
-            </div>
-            <Page2Swipe />
-
         </div>
     );
 }
