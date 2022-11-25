@@ -3,7 +3,7 @@ import './App.css';
 import DrawerAppBar from './Header';
 import MN from './MN';
 import NT from './NT';
-import HomrPageReal from './HomrPage';
+import HomePage from './HomePage';
 
 
 
@@ -13,7 +13,7 @@ function App() {
     <div>
 
       <DrawerAppBar />
-      < HomrPageReal />
+      < HomePage/>
 
 
     </div>

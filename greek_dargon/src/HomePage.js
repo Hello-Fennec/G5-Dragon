@@ -8,6 +8,7 @@ import { Button } from "@mui/material";
 
 
 
+
 function HomrPageReal() {
   const [toggle, setToggle] = useState(true);
   const toggleChecked = () => setToggle((toggle) => !toggle);
@@ -20,7 +21,7 @@ function HomrPageReal() {
   }, []);
 
   return (
-    <div class="homePage">
+    <div>
       {toggle && <Nt />}
       {!toggle && <Mor />}
 
