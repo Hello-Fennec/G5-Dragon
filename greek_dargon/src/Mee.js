@@ -8,19 +8,7 @@ import cloud from './image/cloud.png'
 function Mee() {
   return (
     <div className="page">
-        <nav>
-          <ul className="main">
-            <div className="logo">
-              <a href>GREEK </a>
-            </div>
-            <div className="logo2">
-              <a href>MYTHOLOGY</a>
-            </div>
-            <li><a href="/index.html">MYTHICAL<br /> DRAGONS</a></li>
-            <li><a href="/aboutme.html">LERNAEAN <br />HYDRA</a></li>
-            <li><a href="/diary.html">ABOUT<br />US</a></li>
-          </ul>
-        </nav>
+        
         <div className="card" style={{width: '50%'}}>
           <a href="https://www.instagram.com/akkarawit_title/" target="_blank">
             <div className="box1">
@@ -59,9 +47,11 @@ function Mee() {
 
         <div className="background-wrap">
           <div className="x1">
-            <div className="cloud"> <img src={cloud} width="3990" height="2878"/></div>
+
           </div>
         </div>
+
+  <div className="cloud"> <img src={cloud} width="2990" height="2878"/></div>
 
         <div className="dragon">
           <div className="dragon1">
