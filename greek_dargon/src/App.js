@@ -7,6 +7,7 @@ import MN from './MN';
 import NT from './NT';
 import HomrPageReal from './HomrPageReal';
 import Mee from './Mee';
+import Page3 from './Page3';
 
 
 
@@ -16,7 +17,9 @@ function App() {
     <div>
 
       <DrawerAppBar />
-      < HomrPageReal />
+      {/* < HomrPageReal /> */}
+      <Page3/>
+
 
     </div>
   );

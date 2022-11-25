@@ -21,13 +21,14 @@ function morningD() {
             <img class='sunlight' src={sunlight} alt='sunlight' ></img>
             <div class='could' ></div>
             <img class='bird' src={bd} alt='bird' ></img>
-            <img class='fireright' src={fire} alt='fireright' ></img>
-            <img class='fireleft' src={fire2} alt='fireright' ></img>
+          
 
             <img class='stone1' src={stone1} alt='stone1' ></img>
             <img class='stone2' src={stone2} alt='stone2' ></img>
 
             <div class="dragonImg">
+            <img class='fireright' src={fire} alt='fireright' ></img>
+            <img class='fireleft' src={fire2} alt='fireright' ></img>
                 <p class="text1HomePage">LERNAEAN HYDRA</p>
             </div>
             {/*  edited  */}
