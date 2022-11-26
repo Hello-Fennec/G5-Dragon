@@ -192,7 +192,7 @@ function Page3() {
         </div>
 
             <div className="ABOUTUS">
-            <Link  to={`page4`}><p>ABOUT US </p></Link>
+            <Link  to={`../page4`}><p>ABOUT US </p></Link>
             </div>
         </div>
 </div>

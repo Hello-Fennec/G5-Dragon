@@ -21,7 +21,7 @@ function NT() {
             </div>
             {/*  edited  */}
             <div class="buttonStart">
-            <Link to={`page2`}><Button>
+            <Link to={`../page2`}><Button>
                     <p class="buttontextStart">START!</p>
                 </Button></Link>
             </div>

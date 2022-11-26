@@ -22,7 +22,7 @@ import {Outlet,Link} from "react-router-dom"
 function Page2() {
     return (
         <div className="Page2">
-             <Link to={`page3`}><Button id='buttonHydra'>
+             <Link to={`../page3`}><Button id='buttonHydra'>
             <div className="gifdragon">
                 <img className="gifdragon" src={gifdragon} alt="gifdragon" />
             </div>

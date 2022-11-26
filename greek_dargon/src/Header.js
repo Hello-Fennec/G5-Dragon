@@ -73,7 +73,7 @@ function DrawerAppBar(props) {
         {/* btn1  */}
 
         <Button key={navItems[0]} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
-          <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}> <Link to={`page1`}>{navItems[0]}</Link></Box>
+          <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}> <Link to={`../page2`}>{navItems[0]}</Link></Box>
         </Button>
 
         {/* btn2 */}
@@ -135,7 +135,7 @@ function DrawerAppBar(props) {
 
 
             <button> <p class="font-['Irish_grover'] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] leading-[39px] ">
-              <Link to={`homepage`}><span class='text-[#FFE62F] '>GREEK</span> <br></br>  <span class='text-[#FF26C2] '>MYTHOLOGY</span></Link>
+              <Link to={`../homepage`}><span class='text-[#FFE62F] '>GREEK</span> <br></br>  <span class='text-[#FF26C2] '>MYTHOLOGY</span></Link>
             </p></button>
 
 
@@ -153,7 +153,7 @@ function DrawerAppBar(props) {
             {/* btn1  */}
 
             <Button key={navItems[0]} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
-              <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}><Link to={'page2'}>{navItems[0]}</Link></Box>
+              <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}><Link to={'../page2'}>{navItems[0]}</Link></Box>
             </Button>
 
             {/* btn2 */}
@@ -163,7 +163,7 @@ function DrawerAppBar(props) {
                 <Box sx={{ display: 'flex', flexDirection: 'row' }}> <Box>{navItems[1]} </Box> <Box sx={{ marginLeft: '65px', marginTop: '50px', position: 'absolute' }}>{dropDownIcon}</Box>  </Box>
                 {/* DropDown Intem */}
                 {open ? (
-                  <Link to={`page3`}><ul className="menu li-menu">
+                  <Link to={`../page3`}><ul className="menu li-menu">
                     <li className="menu-item li-menu">
                       <button>ลักษณะและอิทธิฤทธิ์
                         ของไอดรา</button>
@@ -186,7 +186,7 @@ function DrawerAppBar(props) {
             {/* btn3 */}
 
             <Button key={navItems[2]} sx={{ color: '#fff', fontFamily: 'Irish grover', marginLeft: '50px' }}>
-              <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}><Link relative="path" to={`page4`}>{navItems[2]}</Link></Box>
+              <Box sx={{ width: 100, fontSize: '25px', lineHeight: 1.3, textAlign: 'center' }}><Link relative="path" to={`../page4`}>{navItems[2]}</Link></Box>
             </Button>
 
             {/*  edited  */}
@@ -210,7 +210,6 @@ function DrawerAppBar(props) {
         >
           {drawer}
         </Drawer>
-        
       </Box>
          
 
